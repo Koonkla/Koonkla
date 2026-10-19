@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t d">
+<title id="t">Areas of work</title><desc id="d">Web products, AI and automation, bots and workflows, interactive 3D.</desc>
+<defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#18181b"/><stop offset="1" stop-color="#09090b"/></linearGradient></defs>
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+<g><rect x="8" y="10" width="286" height="130" rx="14" fill="url(#card)" stroke="#52525b"/><text x="151" y="68" fill="#a1a1aa" font-size="12" letter-spacing="3">01 / BUILD</text><text x="151" y="101" fill="#fff" font-size="21" font-weight="700">WEB PRODUCTS</text></g>
+<g><rect x="306" y="10" width="286" height="130" rx="14" fill="url(#card)" stroke="#52525b"/><text x="449" y="68" fill="#a1a1aa" font-size="12" letter-spacing="3">02 / AUTOMATE</text><text x="449" y="101" fill="#fff" font-size="21" font-weight="700">AI WORKFLOWS</text></g>
+<g><rect x="604" y="10" width="286" height="130" rx="14" fill="url(#card)" stroke="#52525b"/><text x="747" y="68" fill="#a1a1aa" font-size="12" letter-spacing="3">03 / CONNECT</text><text x="747" y="101" fill="#fff" font-size="21" font-weight="700">BOTS &amp; TOOLS</text></g>
+<g><rect x="902" y="10" width="286" height="130" rx="14" fill="url(#card)" stroke="#52525b"/><text x="1045" y="68" fill="#a1a1aa" font-size="12" letter-spacing="3">04 / EXPLORE</text><text x="1045" y="101" fill="#fff" font-size="21" font-weight="700">INTERACTIVE 3D</text></g>
+</g></svg>
