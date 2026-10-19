@@ -1,41 +1,37 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Animated Koonkla profile banner" width="100%" />
+<img src="assets/banner.svg" alt="Animated monochrome banner: building useful digital products" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=900&color=65E6CA&center=true&vCenter=true&width=800&height=50&lines=Building+useful+digital+products;Web+apps+%2B+AI+workflows;Exploring+interactive+3D" alt="Typing animation: building products, web apps, AI workflows, and interactive 3D" />
-
-<br />
-
-[![GitHub](https://img.shields.io/badge/GitHub-Koonkla-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Koonkla)
-[![AomMai](https://img.shields.io/badge/AomMai-Personal_Finance-0F766E?style=for-the-badge)](https://aommai.vercel.app)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=850&color=F4F4F5&center=true&vCenter=true&width=760&height=42&lines=Building+useful+digital+products;Web+apps+and+AI+workflows;Interactive+3D+experiences" alt="Animated role line" />
 
 </div>
 
 ---
 
-### ■ About me
+### WHAT I DO
 
-ผมชอบสร้างเว็บแอปและเครื่องมือดิจิทัล ตั้งแต่คิดโจทย์ ออกแบบวิธีใช้งาน ไปจนถึงต่อระบบให้ทำงานได้จริง แล้วค่อยปรับให้ดีขึ้นจากการใช้งาน
+<img src="assets/roles.svg" width="100%" alt="Web products, AI workflows, bots and tools, interactive 3D" />
 
-- 💸 **AomMai** — เว็บแอปช่วยจัดการการเงินส่วนบุคคล
-- 🗺️ **TripOra** — โปรดักต์ด้านการค้นพบสถานที่และประสบการณ์ท่องเที่ยว
-- 🤖 **AI & Automation** — ผู้ช่วย บอต และ workflow ที่ช่วยให้งานทำซ้ำง่ายขึ้น
-- 🧊 **Interactive 3D** — ทดลองสร้างประสบการณ์และแอสเซ็ตสำหรับเกม
+### ABOUT ME
 
-### ■ Toolkit
+ผมชอบสร้างเว็บแอป บอต และประสบการณ์ดิจิทัล ตั้งแต่เริ่มจากไอเดีย ทำต้นแบบ แล้วปรับต่อจนใช้งานได้จริง
 
-**Web** · React · Vite · TypeScript · Supabase  
-**Deploy & Cloud** · Vercel · Cloudflare  
-**3D & Games** · Three.js · Blender · Roblox Studio
+- **Web products** — เว็บแอปและเครื่องมือที่ช่วยแก้ปัญหา
+- **AI and automation** — ผู้ช่วยอัจฉริยะ บอต และ workflow
+- **Interactive 3D** — ประสบการณ์และต้นแบบสำหรับเกม
 
-### ■ How I build
+### TOOLKIT
+
+<img src="assets/stack.svg" width="100%" alt="React, TypeScript, Vite, Supabase, Vercel, Cloudflare, Three.js, Blender, Roblox Studio" />
+
+### HOW I BUILD
 
 ```text
-idea  →  prototype  →  feedback  →  ship  →  improve
+IDEA  →  PROTOTYPE  →  FEEDBACK  →  IMPROVE
 ```
 
 <div align="center">
 
-*Build with curiosity. Keep making it better.*
+BUILD WITH CURIOSITY · KEEP MAKING IT BETTER
 
 </div>
