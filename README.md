@@ -14,4 +14,4 @@
 
 ### TOOLKIT
 
-<img src="assets/stack.svg" width="100%" alt="React, TypeScript, Vite, Supabase, Vercel, Cloudflare, Three.js, Blender, Roblox Studio" />
+<img src="assets/stack.svg" width="100%" alt="Supabase, Vercel, Cloudflare, Blender, Unity, MongoDB, VS Code, Codex" />
