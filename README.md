@@ -14,4 +14,4 @@
 
 ### TOOLKIT
 
-<img src="assets/stack.svg" width="100%" alt="Supabase, Vercel, Cloudflare, Blender, Unity, MongoDB, VS Code, Codex" />
+<img src="assets/stack-v2.svg" width="100%" alt="Supabase, Vercel, Cloudflare, Blender, Unity, MongoDB, VS Code, Codex" />
