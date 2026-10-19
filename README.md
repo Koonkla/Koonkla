@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Animated monochrome banner: building useful digital products" width="100%" />
+<img src="assets/banner-mono.svg" alt="Animated monochrome banner: building useful digital products" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=850&color=F4F4F5&center=true&vCenter=true&width=760&height=42&lines=Building+useful+digital+products;Web+apps+and+AI+workflows;Interactive+3D+experiences" alt="Animated role line" />
 
