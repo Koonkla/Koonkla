@@ -1,30 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
 <title id="title">Koonkla — Product Builder</title>
-<desc id="desc">A dark, gradient banner for a Thai digital product builder.</desc>
+<desc id="desc">A neon animated profile banner with a glowing orbit and floating stars.</desc>
+<style>
+  @keyframes hue { 0%,100% { stop-color:#68e7d0; } 50% { stop-color:#b28cff; } }
+  @keyframes breathe { 0%,100% { opacity:.28; transform:scale(.96); } 50% { opacity:.72; transform:scale(1.06); } }
+  @keyframes orbit { to { transform:rotate(360deg); } }
+  @keyframes drift { 0%,100% { transform:translateY(0); opacity:.42; } 50% { transform:translateY(-12px); opacity:1; } }
+  @keyframes scan { 0% { transform:translateY(-40px); opacity:0; } 20% { opacity:.22; } 80% { opacity:.22; } 100% { transform:translateY(400px); opacity:0; } }
+  .aura { transform-box:fill-box; transform-origin:center; animation:breathe 5s ease-in-out infinite; }
+  .orbit { transform-box:fill-box; transform-origin:center; animation:orbit 22s linear infinite; }
+  .star1 { animation:drift 3.2s ease-in-out infinite; }
+  .star2 { animation:drift 4.3s ease-in-out -1.2s infinite; }
+  .star3 { animation:drift 3.7s ease-in-out -2s infinite; }
+  .scan { animation:scan 7s linear infinite; }
+  .beam { animation:breathe 3.8s ease-in-out infinite; }
+  @media (prefers-reduced-motion:reduce) {
+    .aura,.orbit,.star1,.star2,.star3,.scan,.beam { animation:none; }
+  }
+</style>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#080d1b"/>
-    <stop offset="0.55" stop-color="#11172b"/>
-    <stop offset="1" stop-color="#071d26"/>
+    <stop offset="0" stop-color="#070b18"/>
+    <stop offset=".48" stop-color="#11172c"/>
+    <stop offset="1" stop-color="#071c25"/>
   </linearGradient>
-  <linearGradient id="glow" x1="0" y1="1" x2="1" y2="0">
+  <linearGradient id="beam" x1="0" y1="1" x2="1" y2="0">
     <stop offset="0" stop-color="#65e6ca"/>
-    <stop offset="1" stop-color="#9e87ff"/>
+    <stop offset=".5" stop-color="#9583ff"/>
+    <stop offset="1" stop-color="#65e6ca"/>
   </linearGradient>
   <radialGradient id="orb">
-    <stop offset="0" stop-color="#7c69ff" stop-opacity=".28"/>
-    <stop offset="1" stop-color="#7c69ff" stop-opacity="0"/>
+    <stop offset="0" stop-color="#8a6bff" stop-opacity=".38"/>
+    <stop offset="1" stop-color="#8a6bff" stop-opacity="0"/>
   </radialGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+    <path d="M34 0H0V34" fill="none" stroke="#9caad0" stroke-opacity=".07" stroke-width="1"/>
+  </pattern>
+  <clipPath id="clip"><rect width="1200" height="360" rx="28"/></clipPath>
 </defs>
-<rect width="1200" height="320" rx="28" fill="url(#bg)"/>
-<circle cx="1000" cy="150" r="280" fill="url(#orb)"/>
-<path d="M790 260C900 205 935 82 1072 65s166 69 194 110" fill="none" stroke="url(#glow)" stroke-opacity=".38" stroke-width="2"/>
-<path d="M855 294c83-64 104-164 217-175 80-8 128 29 182 78" fill="none" stroke="#65e6ca" stroke-opacity=".16" stroke-width="1"/>
-<circle cx="1020" cy="103" r="4" fill="#65e6ca"/>
-<circle cx="1110" cy="222" r="3" fill="#a995ff"/>
-<circle cx="915" cy="248" r="2" fill="#65e6ca"/>
-<text x="76" y="86" fill="#76e7d0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4">THAI PRODUCT BUILDER</text>
-<text x="72" y="168" fill="#f4f6ff" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-2">Koonkla</text>
-<text x="77" y="215" fill="#bbc4d8" font-family="Segoe UI, Arial, sans-serif" font-size="22">Building useful digital products, one idea at a time.</text>
-<text x="78" y="274" fill="#8793aa" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="1.5">WEB APPS  ·  AI WORKFLOWS  ·  TRAVEL TECH  ·  INTERACTIVE 3D</text>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <circle class="aura" cx="970" cy="168" r="260" fill="url(#orb)"/>
+  <g class="orbit">
+    <ellipse cx="982" cy="164" rx="240" ry="88" fill="none" stroke="url(#beam)" stroke-opacity=".24" stroke-width="1.5"/>
+    <circle cx="1195" cy="164" r="5" fill="#72efd9"/>
+  </g>
+  <ellipse cx="982" cy="164" rx="175" ry="64" fill="none" stroke="#a995ff" stroke-opacity=".14" stroke-width="1"/>
+  <path class="beam" d="M762 292C850 246 918 84 1046 69s191 63 238 111" fill="none" stroke="url(#beam)" stroke-opacity=".72" stroke-width="2"/>
+  <path d="M851 337c93-72 111-182 231-192 79-7 135 34 179 75" fill="none" stroke="#65e6ca" stroke-opacity=".2" stroke-width="1"/>
+  <circle class="star1" cx="1018" cy="91" r="4" fill="#65e6ca"/>
+  <circle class="star2" cx="1106" cy="230" r="3.5" fill="#b89bff"/>
+  <circle class="star3" cx="899" cy="260" r="2.5" fill="#65e6ca"/>
+  <circle class="star1" cx="1145" cy="118" r="2" fill="#f5f4ff"/>
+  <rect class="scan" x="0" y="0" width="1200" height="2" fill="#65e6ca"/>
+  <text x="76" y="84" fill="#76e7d0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4">THAI PRODUCT BUILDER</text>
+  <text x="72" y="174" fill="#f4f6ff" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-2">Koonkla</text>
+  <text x="77" y="220" fill="#c2cbe0" font-family="Segoe UI, Arial, sans-serif" font-size="22">Building useful digital products, one idea at a time.</text>
+  <text x="78" y="292" fill="#8793aa" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="1.4">WEB APPS  ·  AI WORKFLOWS  ·  TRAVEL TECH  ·  INTERACTIVE 3D</text>
+  <path d="M78 315h134" stroke="url(#beam)" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+</g>
 </svg>
