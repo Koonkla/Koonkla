@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-labelledby="t d">
-<title id="t">Tools and technologies</title><desc id="d">React, TypeScript, Vite, Supabase, Vercel, Cloudflare, Three.js, Blender, and Roblox Studio.</desc>
+<title id="t">Tools and technologies</title><desc id="d">Supabase, Vercel, Cloudflare, Blender, Unity, MongoDB, VS Code, and Codex.</desc>
 <rect x="1" y="1" width="1198" height="110" rx="16" fill="#0b0b0c" stroke="#3f3f46"/>
 <g fill="#f4f4f5" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" text-anchor="middle">
-<text x="92" y="64">React</text><text x="224" y="64">TypeScript</text><text x="356" y="64">Vite</text><text x="488" y="64">Supabase</text><text x="620" y="64">Vercel</text><text x="752" y="64">Cloudflare</text><text x="884" y="64">Three.js</text><text x="1016" y="64">Blender</text><text x="1110" y="64">Roblox Studio</text></g>
-<g stroke="#71717a" stroke-width="1"><path d="M155 42v28M287 42v28M419 42v28M551 42v28M683 42v28M815 42v28M947 42v28M1079 42v28"/></g>
+<text x="75" y="64">Supabase</text><text x="225" y="64">Vercel</text><text x="375" y="64">Cloudflare</text><text x="525" y="64">Blender</text><text x="675" y="64">Unity</text><text x="825" y="64">MongoDB</text><text x="975" y="64">VS Code</text><text x="1125" y="64">Codex</text></g>
+<g stroke="#71717a" stroke-width="1"><path d="M150 42v28M300 42v28M450 42v28M600 42v28M750 42v28M900 42v28M1050 42v28"/></g>
 </svg>
