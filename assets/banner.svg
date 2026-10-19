@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Koonkla — Product Builder</title>
+<desc id="desc">A dark, gradient banner for a Thai digital product builder.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080d1b"/>
+    <stop offset="0.55" stop-color="#11172b"/>
+    <stop offset="1" stop-color="#071d26"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#65e6ca"/>
+    <stop offset="1" stop-color="#9e87ff"/>
+  </linearGradient>
+  <radialGradient id="orb">
+    <stop offset="0" stop-color="#7c69ff" stop-opacity=".28"/>
+    <stop offset="1" stop-color="#7c69ff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+<circle cx="1000" cy="150" r="280" fill="url(#orb)"/>
+<path d="M790 260C900 205 935 82 1072 65s166 69 194 110" fill="none" stroke="url(#glow)" stroke-opacity=".38" stroke-width="2"/>
+<path d="M855 294c83-64 104-164 217-175 80-8 128 29 182 78" fill="none" stroke="#65e6ca" stroke-opacity=".16" stroke-width="1"/>
+<circle cx="1020" cy="103" r="4" fill="#65e6ca"/>
+<circle cx="1110" cy="222" r="3" fill="#a995ff"/>
+<circle cx="915" cy="248" r="2" fill="#65e6ca"/>
+<text x="76" y="86" fill="#76e7d0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4">THAI PRODUCT BUILDER</text>
+<text x="72" y="168" fill="#f4f6ff" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-2">Koonkla</text>
+<text x="77" y="215" fill="#bbc4d8" font-family="Segoe UI, Arial, sans-serif" font-size="22">Building useful digital products, one idea at a time.</text>
+<text x="78" y="274" fill="#8793aa" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="1.5">WEB APPS  ·  AI WORKFLOWS  ·  TRAVEL TECH  ·  INTERACTIVE 3D</text>
+</svg>
